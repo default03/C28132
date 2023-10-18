@@ -1,9 +1,6 @@
 from time import sleep
 from random import choice
 class StudentLife:
-    Ovrsght = 0
-    Hngr = 100
-    IsDie = False
     def __init__(self, name:str, age:int):
         self.Age = age
         self.Name = name
